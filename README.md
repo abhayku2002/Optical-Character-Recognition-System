@@ -57,6 +57,19 @@ irregular formatting, embedded graphics, or non-linear
 text layouts, as they can result in inaccurate or partial text 
 extraction.
 
+
+# Features
+Multi-language Support: OCR with support for multiple languages (e.g., English, Arabic). <br>
+Image Processing: Convert images to grayscale for improved OCR accuracy. <br>
+Text Cleanup: Strip non-ASCII characters from the recognized text.<br>
+Bounding Boxes: Draw bounding boxes around recognized text in the image. <br>
+
+# Project Structure
+```
+optical_character_recognition_using_easyocr.py: Main script to perform OCR on an input image.
+images/: Directory to store input images (e.g., image1.jpg).
+```
+
 # case 1: <br>
 ![op1-modified](https://github.com/user-attachments/assets/f9c02cbc-49d3-47cc-92a6-fc253eac64bf) <br>
 
@@ -74,4 +87,9 @@ Tesseract 78.1<br>
 CRNN 85.3<br>
 DeepText 71.9<br>
 
-
+# Run OCR python file:
+```
+python optical_character_recognition_using_easyocr.py
+```
+# Contributing
+Feel free to fork this repository and contribute by submitting a pull request. Any enhancements or bug fixes are welcome!
